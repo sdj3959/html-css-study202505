@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 50px;
+        }
+        div {
+            border: 2px solid blue;
+        }
+        .root {
+            /*
+                em : 자기 자신의 폰트사이즈 대비
+                기본 16px x 10em = 160px
+            */
+            width: 10em;
+            font-size: 30px;
+        }
+        .parent {
+            /* rem : 자기 자신의 폰트사이즈가 아닌 html 태그의 폰트크기를 사용 */
+            width: 5rem;
+        }
+        p {
+            width: 10em;
+            padding: 1em;
+            border: 2px solid green;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="root">ROOT
+        <div class="parent">PARENT
+            <div class="child">CHILD-1</div>
+            <div class="child">CHILD-2</div>
+        </div>
+    </div>
+
+    <p>
+        Babe, 네게 반해버린 내게
+        왜 이래 두렵다고? 물러서지 말고?
+        그냥 내게 맡겨봐라, 어때, my lady?
+        링딩동-링딩동, 링디기-딩디기-딩딩딩
+        링딩동-링딩동, 링디기-딩디기-딩딩딩
+        링딩동-링딩동, 링디기-딩디기-딩딩딩
+        링딩동-링딩동, 링디기-딩디기-딩딩딩
+        Butterfly, 너를 만난 첫 순간
+        눈이 번쩍 머린 stop, 벨이 딩동 울렸어
+        난 말야 멋진 놈, 착한 놈
+        그런 놈은 아니지만 나름대로 괜찮은 bad boy
+        너는 마치 butterfly, 너무 약해 빠졌어
+        너무 순해 빠졌어 널 곁에 둬야겠어
+        더는 걱정 마, 걱정 마, 나만 믿어보면 되잖아
+        네가 너무 맘에 들어 놓칠 수 없는 걸
+        Babe, 내 가슴을 멈출 수
+        Oh, crazy, 너무 예뻐 견딜 수
+        Oh, crazy, 너 아니면 필요 없다
+        Crazy, 나 왜 이래?
+        We wanna go rocka, rocka, rocka, rocka, rocka (so fantastic)
+        Go rocka, rocka, rocka, rocka, rocka (so elastic)
+        Fantastic, fantastic, fantastic, fantastic
+        Elastic, elastic, elastic, elastic
+        링딩동-링딩동, 링디기-딩디기-딩딩딩 (오직 너만 들린다)
+        링딩-동링-딩동, 링디기-딩디기-딩딩딩 (머릿 속에 울린다)
+        링딩동-링딩동, 링디기-딩디기-딩딩딩 (내 가슴에 울린다)
+        링딩동-링딩동, 링디기-딩디기-딩딩딩
+    </p>
+
+</body>
+</html>

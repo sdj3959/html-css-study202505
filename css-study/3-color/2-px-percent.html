@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        div {
+            border: 2px solid red;
+        }
+        .root {
+            width: 50%;
+        }
+        .parent {
+            /* %: 부모요소 대비 비율 */
+            width: 50%;
+            border-color: blue;
+        }
+        .child {
+            width: 50%;
+            border-color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="root">ROOT
+        <div class="parent">PARENT
+            <div class="child">CHILD-1</div>
+            <div class="child">CHILD-2</div>
+        </div>
+    </div>
+
+</body>
+</html>
