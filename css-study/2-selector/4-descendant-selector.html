@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        /*
+            자식, 후손, 형제 선택자
+
+            - 가장 마지막 선택자가 스타일 타겟,
+            그 앞은 모두 다 조건임.
+        */
+
+        div  .oran {
+            background: orange;
+        }
+
+        #auth li.item {
+            color: violet;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="auth">
+        <article>
+            <div class="container">
+                <ul>
+                    <li class="item">aaa</li>
+                    <li class="item">bbb</li>
+                    <li class="item">ccc</li>
+                    <li class="item">ddd</li>
+                </ul>
+            </div>
+        </article>
+    </section>
+
+    <div>
+        <ul>
+            <li id="apple">사과</li>
+            <li>포도</li>
+            <li class="oran">오렌지</li>
+            <li>체리</li>
+        </ul>
+        <div class="carrot">당근</div>
+        <p>토마토</p>
+        <span class="oran">오랑지</span>
+    </div>
+
+</body>
+</html>
