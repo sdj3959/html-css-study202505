@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .box {
+            width: 150px;
+            height: 150px;
+            background: gray;
+            margin: 10px auto 0;
+        }
+        .box.box1 {
+            background: tomato;
+            /*    선의 굵기 */
+            border-width: 5px;
+            /* 선의 모양 */
+            border-style: solid;
+            /*box-sizing: border-box;*/
+
+            /* 선의 색상 */
+            border-color: orange;
+        }
+        .box.box2 {
+            background: aqua;
+            /*    단축속성(순서상관X) */
+            border: dashed 4px #ffff00;
+        }
+        .box.box3 {
+            background: greenyellow;
+            border-top: 4px solid green;
+            border-bottom: 4px dotted violet;
+            border-radius: 50%;
+
+            border-bottom-color: dodgerblue;
+        }
+        body {
+            margin: 0;
+        }
+        .banner {
+            width: 40%;
+            height: 200px;
+            background: pink;
+            margin: 50px 0;
+            border: 4px solid deeppink;
+            border-left: none;
+            /* 좌상단부터 시계방향 */
+            border-radius: 0 20px 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner"></div>
+
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+
+</body>
+</html>

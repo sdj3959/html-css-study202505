@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        p {
+            background: skyblue;
+            display: none;
+        }
+        div {
+            background: violet;
+            display: block;
+        }
+        ul {
+            background: dodgerblue;
+            display: block;
+        }
+        a {
+            background: yellowgreen;
+            display: inline;
+        }
+        em {
+            background: coral;
+            display: inline;
+        }
+        span {
+            background: gold;
+            display: inline;
+        }
+        input {
+            width: 150px;
+            height: 70px;
+            display: inline-block;
+        }
+        img {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<!--    블록요소 : HTML 태그들은 기본적으로 처음부터 부여된 성질
+                  블록요소는 박스모델을 만드는 요소
+                  가로, 세로 길이를 가질 수 있으며 레이아웃을 구성하는 요소
+
+         인라인요소 : 텍스트를 처리하는 태그들
+                     가로, 세로 길이를 가질 수 없음
+                     ex) a, span, strong, em, b, abbr
+
+         인라인블록 : 블록요소처럼 가로세로 사이즈 조절이 되는데
+                     인라인요소처럼 가로배치를 유지
+                      ex) input, img
+-->
+
+    <p> <strong>블록</strong>요소 1</p>
+    <div>블록요소 2</div>
+    <ul>블록요소 3</ul>
+
+    <hr>
+
+    <a href="#">인라인 요소 1</a>
+    <em>인라인 요소 2</em>
+    <span>인라인 요소 3</span>
+
+    <hr>
+
+    <input type="text" value="1">
+    <input type="text" value="2">
+    <input type="text" value="3">
+
+    <img src="https://i.ytimg.com/vi/Vf-iEgOneNs/maxresdefault.jpg" alt="하츄핑">
+    <img src="https://i.ytimg.com/vi/Vf-iEgOneNs/maxresdefault.jpg" alt="하츄핑">
+    <img src="https://i.ytimg.com/vi/Vf-iEgOneNs/maxresdefault.jpg" alt="하츄핑">
+
+</body>
+</html>
