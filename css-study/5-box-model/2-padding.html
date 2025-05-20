@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        * {
+            /*    전체 선택자 : 모든 태그에게 스타일을 적용 */
+            box-sizing: border-box;
+            /*border: 2px solid green;*/
+        }
+
+        .container {
+            width: 500px;
+            height: 500px;
+            background: orange;
+            margin: 100px;
+
+            /* 패딩을 사용하면 박스의 크기가 패딩만큼 커짐 */
+            padding-top: 40px;
+            padding-left: 30px;
+
+            /*    패딩 또는 보더 속성으로 인해 박스가 커지는걸 방지 */
+            /*box-sizing: border-box;*/
+        }
+        .box {
+            /*width: 100%;*/
+            height: 50%;
+            background: tomato;
+            font-size: 2rem;
+            color: #fff;
+            padding: 20px;
+        }
+        /*p {*/
+        /*    border: 3px solid blue ;*/
+        /*    width: 50%;*/
+        /*    margin: 20px auto;*/
+        /*    font-size: 1.5em;*/
+        /*    padding: 25px;*/
+        /*    text-align: justify;*/
+        /*    line-height: 1.4;*/
+        /*}*/
+        .card {
+            width: 250px;
+            height: 350px;
+            border: 2px solid gray;
+            margin: 70px auto;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .card .image {
+            width: 100%;
+            height: 250px;
+            border: 2px solid lightgray;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .card .image img {
+            height: 100%;
+        }
+        .card .text {
+            /*border: 4px solid red;*/
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="image">
+            <img src="https://i.namu.wiki/i/QjnMdzJauau5gigMeDYQ5JtCqFADzHTlygU5dl426dAMrJiLhBD0SARL90ks6YAQdqVqZJXi9Z3LoPjk022ALA.webp" alt="또츄핑">
+        </div>
+        <p class="text">
+            blah~~ blah~~
+        </p>
+    </div>
+
+    <p>국가는 농·어민과 중소기업의 자조조직을 육성하여야 하며, 그 자율적 활동과 발전을 보장한다. 대통령은 헌법과 법률이 정하는 바에 의하여 국군을 통수한다.
+
+        탄핵소추의 의결을 받은 자는 탄핵심판이 있을 때까지 그 권한행사가 정지된다. 모든 국민은 통신의 비밀을 침해받지 아니한다.
+        학교교육 및 평생교육을 포함한 교육제도와 그 운영, 교육재정 및 교원의 지위에 관한 기본적인 사항은 법률로 정한다.</p>
+
+    <div class="container">
+        <div class="box">안녕안녕</div>
+    </div>
+
+</body>
+</html>
