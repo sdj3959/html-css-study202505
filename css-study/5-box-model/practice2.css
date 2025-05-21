@@ -1,0 +1,29 @@
+@import url("common.css");
+
+section {
+    background: lightgray;
+    width: 550px;
+    padding: 25px 20px;
+    margin: 30px auto;
+}
+
+section .qna-list {
+    color: white;
+    text-shadow: 3px 4px 5px gray;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    width: fit-content;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+section .qna-list:last-child{
+    margin-bottom: 0;
+}
+
+section .qna-list:hover {
+    background: lightskyblue;
+    color: yellow;
+    transition-duration: 0.3s;
+}
