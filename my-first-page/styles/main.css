@@ -259,3 +259,35 @@ main .project .bottom li a:hover .name {
         bottom: 10px;
     }
 }
+
+/* partners style */
+main .partners {
+    /*background: orange;*/
+    width: 80%;
+    margin: 170px auto 100px;
+}
+main .partners h3 {
+    font-size: 19px;
+    margin-bottom: 80px;
+}
+main .partners ul {
+    /*border: 4px solid greenyellow;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+main .partners ul li {
+    /*background: orangered;*/
+    /*border: 3px solid skyblue;*/
+    width: 25%;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .partners ul li img {
+    opacity: 0.3;
+    transition: .4s;
+}
+main .partners ul li img:hover {
+    opacity: 1;
+}
