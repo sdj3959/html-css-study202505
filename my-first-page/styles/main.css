@@ -178,3 +178,70 @@ main .main-text p span {
     color: #999;
     font-size: 22px;
 }
+
+/* project style */
+main .project {
+    /*background: tomato;*/
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+main .project .top {
+    /*border: 4px solid blue;*/
+    width: 80%;
+    margin: 0 auto 60px;
+    display: flex;
+    justify-content: space-between;
+}
+main .project .top h3 {
+    /*background: aqua;*/
+    font-size: 38px;
+    font-weight: 700;
+}
+main .project .top a {
+    /*background: violet;*/
+    font-size: 20px;
+}
+main .project .bottom {
+    /*border: 4px solid green;*/
+    display: flex;
+    justify-content: space-evenly;
+}
+main .project .bottom li {
+    border: 4px solid #fff;
+    width: 24%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+main .project .bottom li a img {
+    width: 100%;
+}
+main .project .bottom li a .name {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+    background: #1b1b1b;
+    font-size: 24px;
+    text-align: right;
+    width: 350px;
+    padding: 15px;
+
+
+    opacity: 0;
+}
+
+main .project .bottom li a:hover .name {
+    animation: show-name 1s both;
+}
+
+@keyframes show-name {
+    from {
+        opacity: 0;
+        bottom: -30px;
+    }
+    to {
+        opacity: 1;
+        bottom: 10px;
+    }
+}
