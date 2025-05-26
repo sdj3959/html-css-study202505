@@ -1,0 +1,76 @@
+body {
+    background: #f8f8f8;
+}
+header {
+    height: 5vh;
+}
+header ul {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+header ul li {
+    margin-left: 20px;
+}
+header ul li a {
+    font-size: 16px;
+    color: dimgray;
+}
+
+main {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main img {
+    width: 30%;
+    margin-bottom: 10px;
+}
+main .search-bar {
+    margin-bottom: 10px;
+}
+main .search-bar input[type=text] {
+    font-weight: 700;
+    width: 30vh;
+    padding: 14px;
+    border-radius: 25px;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0px 0px 6px lightgray;
+    transition: .4s;
+}
+main .search-bar input[type=text]:focus {
+    width: 35vh;
+    outline: none;
+}
+main .buttons {
+    margin-top: 5px;
+}
+main .buttons button {
+    font-weight: 700;
+    background: #f8f8f8;
+    border: none;
+    box-shadow: 0 3px 4px #e8e8e8;
+    padding: 10px;
+}
+main .buttons button:hover {
+    cursor: pointer;
+}
+
+footer {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+footer .footer-left a {
+    margin-right: 10px;
+    font-size: 16px;
+    color: dimgray;
+}
+footer .footer-right a {
+    margin-left: 10px;
+    font-size: 16px;
+    color: dimgray;
+}
