@@ -1,0 +1,167 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    /*flex: 1;*/
+    height: 10%;
+}
+
+header nav {
+    height: 100%;
+    display: flex;
+    box-shadow: 0 3px 3px lightgray;
+    position: relative;
+    z-index: 1;
+}
+header nav .logo {
+    /*border: 4px solid black;*/
+    flex: 2;
+}
+header nav .logo img {
+    height: 100%;
+    padding: 10px 0 10px 10px;
+}
+header nav .search-bar {
+    flex: 6;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+header nav .search-bar input[type=text] {
+    border: none;
+    background: #f6f6f6;
+    width: 80%;
+    height: 30%;
+    padding: 8px;
+}
+header nav .search-bar input[type=text]:focus {
+    outline: none;
+}
+header nav .nav-icons {
+    /*border: 4px solid green;*/
+    flex: 2;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+header nav .nav-icons img {
+    width: 50%;
+    margin-right: 20px;
+}
+main {
+    /*height: 75%;*/
+    flex: 5;
+    background: #f8f8f8;
+}
+main .content-container {
+    display: flex;
+    justify-content: center;
+}
+main .content-container .left-column {
+    box-shadow: 0 0 4px lightgray;
+    margin-top: 30px;
+}
+
+main .post-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+}
+main .post-header .post-user-image{
+    border-radius: 50%;
+}
+main .post-header .post-username {
+    margin-left: 10px;
+}
+
+main .post .post-img {
+}
+main .post .post-actions {
+    padding: 10px 0 0 10px;
+}
+main .post .post-caption {
+    margin: 10px;
+}
+main .post .post-caption strong {
+    font-weight: 700;
+}
+
+main .right-column {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+main .right-column .profile-info {
+    display: flex;
+}
+main .right-column .profile-info img {
+    border-radius: 50%;
+}
+main .right-column .profile-info div {
+    margin-left: 10px;
+}
+main .right-column .profile-info div strong {
+    font-weight: 700;
+}
+main .right-column .suggestions {
+    margin-top: 20px;
+    /*border: 4px solid red;*/
+    background: #fff;
+    box-shadow: 0 0 4px lightgray;
+    padding: 10px;
+}
+main .right-column .suggestions h4 {
+    font-weight: 700;
+    padding: 20px 0;
+}
+main .right-column .suggestions .suggestion {
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+main .right-column .suggestions .suggestion img {
+    border-radius: 50%;
+}
+main .right-column .suggestions .suggestion strong {
+    font-weight: 700;
+    margin-left: 10px;
+}
+main .right-column .suggestions .suggestion p {
+    margin-left: 10px;
+}
+main .right-column .suggestions .suggestion button {
+    margin-left: 10px;
+    color: white;
+    background: deepskyblue;
+    border: none;
+    height: 100%;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+main .right-column .suggestions .suggestion button:hover {
+    cursor: pointer;
+}
+
+footer {
+    /*width: 100%;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*flex: 1;*/
+    height: 10%;
+    /*border: 4px solid black;*/
+    box-shadow: 0 -2px 3px lightgray;
+    display: flex;
+    justify-content: center;
+}
+footer ul {
+    display: flex;
+}
+footer ul li {
+    color: steelblue;
+    font-weight: 700;
+    font-size: 80%;
+    margin: 20px 10px 0;
+}
